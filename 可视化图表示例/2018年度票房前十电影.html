@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/chalk.js"></script>
+
+</head>
+<body>
+    <div id="22d98bc74eb8415589db28324ffba148" class="chart-container" style="width:1200px; height:800px;"></div>
+    <script>
+        var chart_22d98bc74eb8415589db28324ffba148 = echarts.init(
+            document.getElementById('22d98bc74eb8415589db28324ffba148'), 'chalk', {renderer: 'canvas'});
+        var option_22d98bc74eb8415589db28324ffba148 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u7968\u623f",
+            "legendHoverLink": true,
+            "data": [
+                3371000.0,
+                3075000.0,
+                2527000.0,
+                2370000.0,
+                2219000.0,
+                1997000.0,
+                1856000.0,
+                1682000.0,
+                1350000.0
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": 40,
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "markLine": {
+                "silent": false,
+                "precision": 2,
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "name": "\u6700\u5c0f\u503c",
+                        "type": "min"
+                    },
+                    {
+                        "name": "\u6700\u5927\u503c",
+                        "type": "max"
+                    },
+                    {
+                        "name": "\u5e73\u5747\u503c",
+                        "type": "average"
+                    }
+                ]
+            },
+            "itemStyle": {
+                "color": "rgb(240,255,255)"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7968\u623f"
+            ],
+            "selected": {
+                "\u7968\u623f": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "name": "\u7535\u5f71\u540d\u79f0",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            },
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "rotate": 20,
+                "margin": 8
+            },
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "\u5510\u4eba\u8857\u63a2\u68482",
+                "\u6211\u4e0d\u662f\u836f\u795e",
+                "\u897f\u8679\u5e02\u9996\u5bcc",
+                "\u590d\u4ec7\u8005\u8054\u76df3\uff1a\u65e0\u9650\u6218\u4e89",
+                "\u6349\u5996\u8bb02",
+                "\u6d77\u738b",
+                "\u6bd2\u6db2\uff1a\u81f4\u547d\u5b88\u62a4\u8005",
+                "\u4f8f\u7f57\u7eaa\u4e16\u754c2",
+                "\u540e\u6765\u7684\u6211\u4eec"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u7968\u623f(\u4e07\u5143)",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "max": "dataMax",
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "2018\u5e74\u5ea6\u7968\u623f\u524d\u5341\u7535\u5f71",
+            "link": "http://58921.com/alltime/2018",
+            "left": "right",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontFamily": "monospace",
+                "fontSize": 30
+            }
+        }
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "vertical",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "1%",
+        "feature": {
+            "dataZoom": {
+                "yAxisIndex": "none"
+            },
+            "restore": {},
+            "saveAsImage": {}
+        }
+    }
+};
+        chart_22d98bc74eb8415589db28324ffba148.setOption(option_22d98bc74eb8415589db28324ffba148);
+    </script>
+</body>
+</html>
